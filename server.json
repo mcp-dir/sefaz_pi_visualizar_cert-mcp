@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/sefaz_pi_visualizar_cert-mcp",
+  "title": "SEFAZ PI Visualizar certidões CNDA: CND",
+  "description": "SEFAZ PI Visualizar certidões CNDA: CND, official-source lookup. Platform-hosted, pay per query with",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/sefaz_pi_visualizar_cert-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_sefaz_pi_visualizar_cert"
+    }
+  ]
+}
